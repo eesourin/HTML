@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:lightblue;
+        }
+    </style>
+</head>
+<body>
+    <form action="/submit.php" method="post">
+    <h1>Welcome to my page</h1>
+    <label for="name">USERNAME:</label>
+    <input type="text"id="name"placeholder="Type your name"required="true"><br><br>
+    <label for="password">PASSWORD:</label>
+    <input type="password"id="password"placeholder="Type your password"required="true"><br><br>
+    <label for="date">DATE:</label>
+    <input type="date"id="date"><br><br>
+    <label for="gender">GENDER:</label><br>
+    <input type="radio"id="male"name="gender"value="male">
+    <label for="male">Male</label><br>
+    <input type="radio"id="female"name="gender"value="female">
+    <label for="female">Female</label><br>
+    <input type="radio"id="other"name="gender"value="other">
+    <label for="other">other</label><br><br>
+    <label for="file">FILE:</label>
+    <input type="file"id="file"><br><br>
+    <label for="checkbox">CHECKBOX:</label><br><br>
+    <input type="checkbox"id="C"name="checkbox"value="C">
+    <label for="C">C</label><br>
+    <input type="checkbox"id="python"name="checkbox"value="python">
+    <label for="python">PYTHON</label><br>
+    <input type="checkbox"id="C++"name="checkbox"value="C++">
+    <label for="C++">C++</label><br><br>
+    <label for="country">Country Selection:</label>
+    <select id="country">
+    <option>India</option>
+    <option>United States</option>
+    <option>Brazil</option>
+    </select><br><br>
+    <textarea row="4"cols="40">Enter your querry</textarea><br>
+    <input type="submit">
+</form>
+
+</body>
+</html>
